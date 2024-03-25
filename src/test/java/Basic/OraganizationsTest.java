@@ -1,5 +1,4 @@
 package Basic;
-
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -11,7 +10,6 @@ import org.testng.annotations.Test;
 
 import CommonUtils.PropertyFileUtil;
 import CommonUtils.WebDriverUtil;
-
 public class OraganizationsTest {
 
 
@@ -46,14 +44,5 @@ public class OraganizationsTest {
 
 	
 	 
-	
-	
-	
-	
-	driver.findElement(By.id("submitButton")).click();
-    Thread.sleep(2000);
-
-
-
 	 }
 }
